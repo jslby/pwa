@@ -50,9 +50,6 @@
       if (isIos() && !isInStandaloneMode()) {
         this.setState({ showInstallMessage: true });
       }
-      if (state.showInstallMessage === true) {
-        
-      }
     }
   </script>
 
@@ -65,9 +62,17 @@
 
 <body>
   <div class="container">
-    <iframe src="https://m.bet2u.club/" width="100%" height="100%">
-    </iframe>
+    <iframe width="100%" height="100%" id="myFrame" src="https://m.bet2u.com/"></iframe>
   </div>
+  <script>
+    if (navigator.language.match(/es/)) {
+      var url = new URL('https://m.bet2u.com/');
+      document.getElementById("myFrame").src = url.href;
+    } else if (navigator.language.match(/it/)) {
+      var url = new URL('https://m3.bet2u.com/');
+      document.getElementById("myFrame").src = url.href;
+    }
+  </script>
 </body>
 
 </html>
