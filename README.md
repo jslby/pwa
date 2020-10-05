@@ -1,5 +1,3 @@
-# webcommunityukie.github.io
+# Simple PWA APP
 
-Icon adapted from https://thenounproject.com/term/global-community/986374/
-
-Website based off http://goldsmiths.tech/ 
+Nothing to say is very simple:)
