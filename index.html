@@ -24,6 +24,16 @@
   <meta name="theme-color" content="#E6E6FA">
 
   <script>
+    const link = document.createElement('link');
+    link.rel = 'manifest'
+    if (navigator.language.match(/es/)) {
+      link.href = './manifest_es.json'
+    } else if (navigator.language.match(/it/)) {
+      link.href = './manifest_it.json'
+    }
+    else {
+      link.href = './manifest.json'
+    }
     if ('serviceWorker' in navigator) {
       window.addEventListener('load', function () {
         navigator.serviceWorker.register('./sw.js').then(function (registration) {

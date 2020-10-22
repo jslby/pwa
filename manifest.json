@@ -1,12 +1,12 @@
 {
-  "name": "Bet2U Club",
+  "name": "You Bet - We Pay",
   "short_name": "Bet2U",
   "description": "BET2U : Official Site - Sports Betting, Casino, Live Casino",
   "lang": "en-US",
   "start_url": "./",
   "display": "standalone",
-  "theme_color": "#E6E6FA",
-  "background_color": "#E6E6FA",
+  "theme_color": "#000000",
+  "background_color": "#000000",
   "icons": [
     {
       "src": ".\/icons/wcls-logo-512.png",
