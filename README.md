@@ -2,39 +2,39 @@
 
 ![Image alt](https://i.ibb.co/740K0VT/2020-10-22-17.png)
 
-## Основные настройки
+## Main settings
 
-В файле index.html указан iframe. Ссылки iframe указываются с помощью условий в скрипте, в зависимости от языка бразуера.
+The index.html file contains an iframe.  Iframe links are specified using conditions in the script, depending on the browser language.
 
 ![Image alt](https://i.ibb.co/LpYtZTL/2020-10-22-19.png)
 
-В файле manifest.json описаны логотипы которые будут использованы в pwa в зависимости от размера и типа устройста, также там имеются параметры цвета и заголовок pwa-приложения.
+The manifest.json file describes the logos that will be used in pwa depending on the size and type of device, there are also color parameters and a header for the pwa app.
 
 ![Image alt](https://i.ibb.co/ZfQmcs6/2020-10-22-15.png)
 
-В sw.js указан конфиг всплывающего окна чтобы пользователь мог скачать приложение, все это происходит благодаря подключение библиотеки указанной в файле sw-toolbox.js.
+In sw.js, the pop-up window config is specified so that the user can download the application, all this happens by connecting the library specified in the sw-toolbox.js file.
 
 ![Image alt](https://i.ibb.co/tbKmZZk/2020-10-22-18.png)
 
-В style.css указан основной стиль блоков
+Style.css specifies the main style of the blocks
 
 ![Image alt](https://i.ibb.co/JBPXWVb/2020-10-22-16.png)
 
-## Конвертация в apk
+## Convert to apk
 
-Конвертация в apk-файл происходит с помощью android-приложения apk extractor: 
-1. Вы скачиваете pwa-приложение из браузера
-2. Скачивайте в Play Market приложение apk-extractor
+Conversion to an apk file is done using the apk extractor android application: 
+1. You download the pwa application from your browser
+2. Download apk-extractor application in Play Market
 
-Заходите в apk extractor            |  Ищите в нём pwa-приложение
+Go to apk extractor            |  Look for the pwa application in it
 :-------------------------:|:-------------------------:
 ![](https://i.ibb.co/q56V2mB/photo-2020-10-22-15-36-45-2.jpg)  |  ![](https://i.ibb.co/bmNJK7K/photo-2020-10-22-15-36-45.jpg)
 
-3. Далее нажимаете на него и ваше pwa-приложение конвертируется в apk-файл
-4. Подключаете телефон к компьютеру ищите в папке apk-приложение (Директория будет указана в apk extractor) и скидываете его на компьютер
-5. Далее отправляете своему коллеге по работе и у вас целое APK приложение.
+3. Then click on it and your pwa application is converted to an apk file
+4. Connect the phone to the computer, look for the apk-application in the folder (The directory will be indicated in the apk extractor) and drop it on the computer
+5. Then you send your work colleague and you have a whole APK application.
 
-Экран при запуске             |  Само приложение
+Startup screen             |  The application itself
 :-------------------------:|:-------------------------:
 ![](https://i.ibb.co/0hzzZG7/photo-2020-10-22-15-24-42.jpg)  |  ![](https://i.ibb.co/wpYJKMv/photo-2020-10-22-15-25-42.jpg)
 
